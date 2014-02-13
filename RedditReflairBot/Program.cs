@@ -18,7 +18,7 @@ namespace RedditReflairBot
         static void Main(string[] args)
         {
             var reddit = new Reddit();
-            int backDays = 0;
+            int backDays;
             try
             {
                 reddit.User = reddit.LogIn(ModUserName, ModPassword);
